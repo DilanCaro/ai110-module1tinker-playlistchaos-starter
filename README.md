@@ -111,3 +111,10 @@ If you finish early or want an extra challenge, try one of these:
 - Stay curious. The unpredictability is intentional and part of the experience.
 
 When you finish, Playlist Chaos will feel more predictable, and you will have taken your first steps into AI-assisted debugging.
+
+## Modified parts
+- In `app.py`, added `.lower()` to genre and title inputs to ensure consistent classification.
+- In `playlist_logic.py`, improved the classification of mixed moods and added handling for mixed songs in the lucky pick feature.
+
+## Reflection
+In this activity, students needed to understand the core concept of how the app's logic interacts with the user interface, particularly in `playlist_logic.py` and `app.py`. Students are likely to struggle with the complexity of the logic used for song classification and playlist generation. AI can be helpful in breaking down these complex functions, but it may mislead if students rely too heavily on it without understanding the underlying logic. To guide a student without giving away the answer, I would suggest they focus on one function at a time, analyzing its inputs and expected outputs. This method encourages critical thinking and a deeper understanding of the code.
